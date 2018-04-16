@@ -1,6 +1,6 @@
 # <a name="top">get_next_line</a>
 
-Get_next_line is a function that reads data from a file or standard input one line at a time. This function can also handle multiple file descriptors without losing the reading thread on each of the descriptors.
+Get_next_line is a function that reads data from a file or standard input one line at a time. A line is a succession of characters that end with '\n'. This function can also handle multiple file descriptors without losing the reading thread on each of the descriptors.
 
 
 ## Contents
