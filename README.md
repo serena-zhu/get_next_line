@@ -5,7 +5,7 @@ Get_next_line is a function that reads data from a file or standard input one li
 
 ## Contents
 
-[Language & Functions Used](#language_functions) | [Usage & Example](#usage_example)
+[Language & Functions Used](#language_functions) | [Prototype & Buffer Size](#prototype_buffer)
 
 ## <a name="language_functions">Language & Functions Used</a>
 
@@ -17,7 +17,7 @@ The fdf program is written in C, using only the following functions from the sta
 
 <a href="#top">↥ back to top</a>
 
-## <a name="usage_example">Usage & Example</a>
+## <a name="prototype_buffer">Prototype & Buffer Size</a>
 
 #### `Prototype`
 
@@ -28,7 +28,6 @@ int      get_next_line(const int fd, char **line);
 * The first parameter is the file descriptor that will be used to read.
 * the second parameter is the address of a pointer to a character that will be used to save the line (without '\n') read from the file descriptor.
 * The return value will be 1, 0, or -1 depending on whether a line has been read, when the reading has been completed, or if an error has occured, respectively.
-* 
 
 #### `Buffer Size`
 
