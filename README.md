@@ -55,11 +55,11 @@ $ cat main.c
 
 int	main(int argc, char **argv)
 {
-	char *line;
-	int fd;
-	int fd2;
-	int result;
-	int	i;
+	char  *line;
+	int   fd;
+	int   fd2;
+	int   result;
+	int   i;
 
 	if (argc > 1)
 	{
